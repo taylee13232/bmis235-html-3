@@ -37,9 +37,10 @@ nav a {
 }
 
 h1 {
-    color: #754126;
+    color: #754126 !important;
     text-align: center;
     font-size: 40px;
+}
 }
 
 p {
