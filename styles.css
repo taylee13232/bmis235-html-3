@@ -18,17 +18,27 @@ body {
 }
 
 /* the menu at the top of every page */
-nav {
-    background-color: #754126;
-    padding: 18px;
+.home-menu {
     text-align: center;
+    margin-bottom: 10px;
 }
 
-/* every image inside the menu is forced to the same height.
-   If your images still look different sizes, their WIDTHS are
-   different: go back to Excel and make every cell the same size. */
-nav a:hover img {
-    transform: scale(1.05);
+.food-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav img {
+    width: 150px;
+    height: 50px;
+    object-fit: fill;
+    margin: 4px;
+    border: 2px solid #e8b65d;
+    border-radius: 4px;
+    transition: transform 0.2s;
 }
 
 /* no underline or border around the image links */
