@@ -20,17 +20,15 @@ body {
 /* the menu at the top of every page */
 nav {
     background-color: #754126;
-    padding: 14px;
+    padding: 18px;
     text-align: center;
 }
 
 /* every image inside the menu is forced to the same height.
    If your images still look different sizes, their WIDTHS are
    different: go back to Excel and make every cell the same size. */
-nav img {
-    height: 50px;
-    margin: 4px;
-    vertical-align: middle;
+nav a:hover img {
+    transform: scale(1.05);
 }
 
 /* no underline or border around the image links */
