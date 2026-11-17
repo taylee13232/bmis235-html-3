@@ -47,7 +47,10 @@ p {
     max-width: 600px;
     margin: 20px auto;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.6;
+    background-color: #fffaf0;
+    padding: 12px;
+    border-radius: 8px;
 }
 
 footer {
