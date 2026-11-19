@@ -62,6 +62,32 @@ Questions? <a href="mailto:trome@zagmail.gonzaga.edu">Email me!</a>
 
 <!-- Footer: fill in your name -->
 <footer>Built by Taylee Rome &middot; BMIS 235</footer>
+<script>
+function showDish(dish) {
+    const display = document.getElementById("dish-display");
 
+    if (dish === "stuffing") {
+        display.innerHTML = `
+            <h2>🥖</h2>
+            <h3>#1 - Stuffing</h3>
+            <p>My number one favorite! I love how it goes perfectly with turkey and gravy.</p>
+        `;
+    } 
+    else if (dish === "mac") {
+        display.innerHTML = `
+            <h2>🧀</h2>
+            <h3>#2 - Mac and Cheese</h3>
+            <p>My second favorite because it is creamy, cheesy, and delicious!</p>
+        `;
+    } 
+    else if (dish === "potatoes") {
+        display.innerHTML = `
+            <h2>🥔</h2>
+            <h3>#3 - Mashed Potatoes</h3>
+            <p>My third favorite! They are even better with butter and gravy.</p>
+        `;
+    }
+}
+</script>
 </body>
 </html>
