@@ -40,7 +40,6 @@ nav img {
     border-radius: 4px;
     transition: transform 0.2s;
 }
-
 /* no underline or border around the image links */
 nav a {
     text-decoration: none;
